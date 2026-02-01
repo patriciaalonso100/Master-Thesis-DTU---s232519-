@@ -1,0 +1,72 @@
+{
+  "system.auth": {
+    "tp": 23,
+    "fp": 6,
+    "fn": 4,
+    "selected": 29,
+    "gt_total": 27,
+    "total_logs": 4000,
+    "precision": 0.7931034482758621,
+    "recall": 0.8518518518518519
+  },
+  "cisco_asa.log": {
+    "tp": 2,
+    "fp": 32,
+    "fn": 6,
+    "selected": 34,
+    "gt_total": 8,
+    "total_logs": 2334,
+    "precision": 0.058823529411764705,
+    "recall": 0.25
+  },
+  "panw.panos": {
+    "tp": 0,
+    "fp": 119,
+    "fn": 0,
+    "selected": 119,
+    "gt_total": 0,
+    "total_logs": 4916,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "cisco_ise.log": {
+    "tp": 0,
+    "fp": 16,
+    "fn": 0,
+    "selected": 16,
+    "gt_total": 0,
+    "total_logs": 4000,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "system.security": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "selected": 1,
+    "gt_total": 0,
+    "total_logs": 4916,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "elastic_agent.filebeat": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "selected": 0,
+    "gt_total": 0,
+    "total_logs": 4916,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "endpoint.events.network": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "selected": 0,
+    "gt_total": 0,
+    "total_logs": 4916,
+    "precision": 0.0,
+    "recall": 0.0
+  }
+}
