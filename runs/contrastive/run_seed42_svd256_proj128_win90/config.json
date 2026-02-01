@@ -1,0 +1,39 @@
+{
+  "golden_id": "episode_016",
+  "dataset_path": "episodes_all_baseline.parquet",
+  "text_col": "masked_message_cl",
+  "alert_csv_path": "Golden/Alert_1.csv",
+  "pair_window_sec": 90,
+  "max_pos_per_anchor": 2,
+  "max_anchors_per_episode": 10000,
+  "max_neg_per_anchor": 2,
+  "tfidf_max_features": 5000,
+  "tfidf_min_df": 5,
+  "tfidf_ngram_range": [
+    1,
+    2
+  ],
+  "graph_max_gap_actor": 120,
+  "graph_max_gap_host": 60,
+  "use_host_edges": true,
+  "use_actor_edges": true,
+  "rca_max_nodes": 200,
+  "rca_max_hops": null,
+  "rca_max_back_seconds": 1800,
+  "rca_forward_slack_seconds": 60,
+  "rca_priority_mode": "baseline",
+  "proj_dim": 128,
+  "batch_size": 512,
+  "epochs": 5,
+  "lr": 0.0001,
+  "temperature": 0.07,
+  "device": "cpu",
+  "seed": 42,
+  "score_merge_w": 1.0,
+  "ks": [
+    5,
+    10,
+    20,
+    50
+  ]
+}

@@ -1,0 +1,14 @@
+ablation,variant,use_actor_edges,use_host_edges,actor_gap_s,host_gap_s,nodes,edges,reachable_nodes,reachable_evidence,core_gt_evidence_total,ext_gt_evidence_total,ReachRec_core_evidence,core_reachable_evidence,ReachRec_ext_evidence,ext_reachable_evidence
+actor_gap_sweep,actor_gap=600,True,True,600,60,29999,34377,7349,6438,32,40,1.0,32/32,1.0,40/40
+actor_gap_sweep,actor_gap=300,True,True,300,60,29999,34051,6707,6093,32,40,1.0,32/32,1.0,40/40
+actor_gap_sweep,actor_gap=120,True,True,120,60,29999,33486,6628,6014,32,40,1.0,32/32,1.0,40/40
+actor_gap_sweep,actor_gap=60,True,True,60,60,29999,32764,99,80,32,40,0.75,24/32,0.75,30/40
+actor_gap_sweep,actor_gap=30,True,True,30,60,29999,31768,97,78,32,40,0.75,24/32,0.75,30/40
+edge_type,both_edges,True,True,120,60,29999,33486,6628,6014,32,40,1.0,32/32,1.0,40/40
+edge_type,actor_only,True,False,120,60,29999,14541,241,227,32,40,1.0,32/32,1.0,40/40
+edge_type,host_only,False,True,120,60,29999,22933,28,28,32,40,0.65625,21/32,0.525,21/40
+edge_type,no_edges,False,False,120,60,29999,1,1,1,32,40,0.03125,1/32,0.025,1/40
+host_gap_sweep,host_gap=300,True,True,120,300,29999,34707,8684,7213,32,40,1.0,32/32,1.0,40/40
+host_gap_sweep,host_gap=120,True,True,120,120,29999,34199,6759,6138,32,40,1.0,32/32,1.0,40/40
+host_gap_sweep,host_gap=60,True,True,120,60,29999,33486,6628,6014,32,40,1.0,32/32,1.0,40/40
+host_gap_sweep,host_gap=30,True,True,120,30,29999,32087,1362,808,32,40,1.0,32/32,1.0,40/40
